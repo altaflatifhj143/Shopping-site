@@ -1,0 +1,461 @@
+
+.blue{
+    background-color:rgb(157, 167, 196);
+}
+.red{
+    border: 2px solid red;
+}
+.nav-link{
+    color: rgb(128, 62, 0);
+}
+.navbarsecrtoin{
+    z-index: 23 !important;
+    
+    background-color: #3C8DBC !important;
+   
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 800 !important;
+}
+.navbar-nav li a:hover{
+    color: yellow !important;
+    
+    /* border-bottom: 1px solid yellow; */
+  
+    
+}
+
+i{
+    
+}
+.toptopicons{
+    color: white;
+}
+.toptopicons i{
+    color: white;
+    font-size: 20px;
+}
+.navbarsecrtoin{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.footermain{
+    margin-bottom: 100px;
+   
+    background-image: url('businessman-3213659_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: teal;
+    padding: 50px 0px;
+    width: 100%;
+    color: white;
+}
+.footermainchild{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footermainchild h2{
+   padding: 30px 0;
+}
+.footermainchild p{
+    text-align: justify;
+    line-height: 25px;
+ }
+
+
+/* foooterrr */
+.content li a{
+    text-decoration: none;
+    color: rgb(179, 179, 179) !important;
+}
+.content li a:hover{
+    color: rgb(179, 179, 179) !important;
+    font-weight: 600;
+}
+
+.content li {
+    padding-top: 9px;
+}
+.upperfooter{
+    background-color: #ececec;
+}
+.upperfooter p{
+    font-size: 12px;
+
+}
+.cssancher h4{
+    color: #000;
+    font-weight: 300;
+    font-size: 20px;
+}
+.cssancher a{
+    text-decoration: none !important;
+    border-bottom: 3px solid black;
+    padding-bottom: 3px;
+    color: black;
+    font-weight: 700;
+}
+.mynavicons ul{
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.mynavicons li{
+    list-style-type: none;
+ }
+ .mynavicons ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+ }
+ .mynavicons ul li a:hover{
+     /* border-bottom: 2px solid yellow; */
+     color: yellow;
+ }
+ .cart{
+     position: relative;
+ }
+ .cart  span{
+    font-size: 8px;
+    border: none;
+    padding: 0px 3px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 14px;
+
+
+ }
+ .btnsinin{
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background: black;
+    cursor: pointer;
+ }
+.footerformbtn h3{
+     font-size: 20px;
+     padding-right: 90px;
+     font-weight: 300;
+
+}
+.footerformbtn button{
+    height: 28px;
+    color: white;
+    background-color: black;
+        
+}
+.footersall{
+    background-color: black !important;
+}
+
+.footerimges h6::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width: 176px;
+    height: 2.3px;
+    margin: 0px auto;
+
+}
+.footerformbtn input[type="text"]{
+    padding: -5px 30px;
+    height: 25px;
+
+}
+.footerimges::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 118px;
+    margin: 0px auto;
+    left: 5px;
+    top: 44px;
+}
+.footerimgess h6::after{
+    content: "";
+    display: block;
+    /* position: absolute; */
+    background-color: black;
+    width: 176px;
+    height: 2.3px;
+    margin: 0px auto;
+
+}
+.fixedbtn{
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 15px;
+    background-color: black;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 29px;
+}
+.discountsonpics{
+    position: absolute;
+	right: 7%;
+    top: 2%;
+    color: white;
+    background-color: #e27c7c;
+    width: 53px;
+    text-align: center;
+}
+
+.hoverchange{
+
+}
+.hoverchange {
+        position: relative;
+        width: 360px; /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+    }
+    .hoverchange img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .hoverchange:hover img.image-hover {
+      opacity: 1;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        margin: 0;
+        opacity: 2;
+    }
+
+
+.divsizeshow{
+    display: none;
+}
+.divsizeshow1{
+    display: block;
+}
+.divpieceshow{
+    display: none;
+}
+.divpieceshow1{
+    display: block;
+}
+.fabric{
+    display: none;
+}
+.fabric1{
+    display: block;
+}
+.divpriceshow{
+    display: none;
+}
+.divpriceshow1{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /* css of shipping page */
+.myaddresscart{
+    background-color: #e0e0e0;
+}
+.myaddresscart form{
+    width: 100%;
+}
+
+
+/* 
+
+
+
+
+
+@media only screen and (max-width: 1197px) {
+    .discountsonpics{
+        bottom: 291px;
+        left: 138px;
+    }
+  }
+
+
+  @media only screen and (max-width: 948px) {
+    .discountsonpics{
+        bottom: 704px;
+    left: 399px;
+    }
+  }
+  @media only screen and (max-width: 543px) {
+    .discountsonpics{
+        bottom: 536px;
+        left: 299px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .discountsonpics{
+        bottom: 461px;
+        left: 246px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .discountsonpics{
+        bottom: 376px;
+        left: 195px;
+    }
+  } */
+  .slidea{
+    padding-top: 10px!important;
+  }
+  .slidea:hover{
+    box-shadow: -1px 3px 7px 0px rgba(175, 164, 164, 0.81);
+  }
+  .slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+
+
+
+
+    .slideInLeft {
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes slideInLeft {
+        0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+        }
+        @keyframes slideInLeft {
+        0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        visibility: visible;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+        } 
+
+        
+
+        .slideInUp {
+            -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+            -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes slideInUp {
+            0% {
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            visibility: visible;
+            }
+            100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            }
+            }
+            @keyframes slideInUp {
+            0% {
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            visibility: visible;
+            }
+            100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            }
+            } 
+          
+
+            .cursor {
+                position: fixed;
+                width: 30px;
+                height: 30px;
+                border: 1px solid #000000;
+                border-radius: 50%;
+                left: 0;
+                top: 0;
+                pointer-events: none;
+                transform: translate(-50%, -50%);
+                transition: .1s;
+                z-index: 3;
+        }
+        .cursor2 {
+                position: fixed;
+                width: 8px;
+                height: 8px;
+                background-color: #575757;
+                border-radius: 50%;
+                left: 0;
+                top: 0;
+                pointer-events: none;
+                transform: translate(-50%, -50%);
+                transition: .15s;
+                z-index: 3;
+
+        }
+        
