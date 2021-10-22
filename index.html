@@ -8,40 +8,30 @@
 	<title>SHOPPING</title>
 	<!-- Cutomise css link -->
 	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> </head>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<style>
-		::selection{
-			color: white;
-			background-color: rgb(22, 22, 7);
-		}
 		body{
 			cursor: none;
+			
+		}
+		html{
+			scroll-behavior: smooth;
 		}
 	</style>
-<body oncontextmenu="return false;">
+<body>
 
-	<div class="container-fluid navbarsecrtoin py-2">
-		<nav class="navbar navbar-expand-lg navbar-light ">
+	<div class="container-fluid navbarsecrtoin py-2"  >
+		<nav class="navbar navbar-expand-lg navbar-light " >
 			<button class="navbar-toggler ml-n4" style="width: 34px;
 			height: 31px;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon " style="width: 22px;margin: -8px;    margin-bottom: -4px;"></span> </button>
 			<a class="navbar-brand" href="#">
 				
-				<img src="Assets/logo/21700_279437_9458_image-removebg-preview (1).png" class="img-fluid" width="150"  alt="">
+				<img src="logo.png" class="img-fluid" width="150"  alt="" > 
 				</a> 
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item "> <a class="nav-link text-dark  mx-xl-3 mx-lg-0" href="index.html">HOME </a> </li>
-					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="laptop.html">LAPTOPS</a> </li>
-					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="destop.html">DESTOP PC</a> </li>
-					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="tablet.html">MONITOR</a> </li>
-					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0mx-lg-3 " href="contact.html">CONTACT US</a> </li>
-					<li class="nav-item"> <a class="nav-link text-dark  mx-xl-3 mx-lg-0" href="about.html">ABOUT US</a> </li>
-			</div>
-					
-			<div class=" my-2 my-lg-0  mt-md-1  pr-lg-5 mynavicons"> 
+				<div class=" my-2 my-lg-0  mt-md-1  pr-lg-5 mynavicons d-md-none d-block"> 
 				<ul>
 					<li class="cart ">
 						<a href="#" class="mr-md-3 mr-1"  data-toggle="dropdown" >
@@ -53,29 +43,52 @@
 				</ul>
 				
 			</div>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item "> <a class="nav-link text-dark  mx-xl-3 mx-lg-0" href="index.html">HOME </a> </li>
+					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="laptop.html">LAPTOPS</a> </li>
+					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="destop.html">DESTOP PC</a> </li>
+					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0 " href="tablet.html">MONITOR</a> </li>
+					<li class="nav-item"> <a class="nav-link text-dark mx-xl-3 mx-lg-0mx-lg-3 " href="contact.html">CONTACT US</a> </li>
+					<li class="nav-item"> <a class="nav-link text-dark  mx-xl-3 mx-lg-0" href="about.html">ABOUT US</a> </li>
+			</div>
+					
 			
+			<div class=" my-2 my-lg-0  mt-md-1  pr-lg-5 mynavicons d-md-block d-none"> 
+				<ul>
+					<li class="cart ">
+						<a href="#" class="mr-md-3 mr-1"  data-toggle="dropdown" >
+						<i class="fa fa-shopping-cart mt-2"></i>
+						<span class="label label-success cart_count">0</span>
+					  </a>
+					</li>
+					  <li class="btnsinin py-md-2 px-md-4 "><a href="Sinin.html" >SIN IN</a></li>
+				</ul>
+				
+			</div>
 			</nav>
+			
 		
 	</div>
 
 	
-
+	<div id="forhome"></div>
 	
-	<div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
-		<ol class="carousel-indicators">
+	<div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel" >
+		<ol class="carousel-indicators" id="forhome">
 		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
-			<img class="d-block w-100" src="Assets/slider/ba3fc1662f41e45048b497c8100f7e97.png_2200x2200q80.jpg_.png" alt="First slide">
+			<img class="d-block w-100" src="ba3fc1662f41e45048b497c8100f7e97.png_2200x2200q80.jpg_.png" alt="First slide">
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="Assets/slider/3d2af4b80fca11ed302afe37fe711cb4.png_2200x2200q80.jpg_.png" alt="Second slide">
+			<img class="d-block w-100" src="3d2af4b80fca11ed302afe37fe711cb4.png_2200x2200q80.jpg_.png" alt="Second slide">
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="Assets/slider/ba1281937f5f217710541b49bce66f9a.png" alt="Third slide">
+			<img class="d-block w-100" src="ba1281937f5f217710541b49bce66f9a.png" alt="Third slide">
 		  </div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,7 +106,7 @@
 	<div class="container mb-n3 mt-3">
 		<div class="row">
 			<div class="col-md-4 py-3  mb-5 slidea" data-aos="zoom-in">
-				<div class="card " style="border: none;"> <img src="Assets/home/P65-Creator.jpg"  class="card-img-top" alt="...">
+				<div class="card " style="border: none;"> <img src="P65-Creator.jpg"  class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4><b>ASUS ROG</b> </h4> 
 						<ul>
@@ -110,7 +123,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="zoom-in">
-				<div class="card" style="border: none;"> <img src="Assets/home/hoom1.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="hoom1.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -127,7 +140,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="zoom-in">
-				<div class="card" style="border: none;"> <img src="Assets/home/ROG-Zephyrus-M.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="ROG-Zephyrus-M.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -149,7 +162,7 @@
 	<div class="container mb-n3 mt-3">
 		<div class="row">
 			<div class="col-md-4 py-3  mb-5 slidea" data-aos="fade-right">
-				<div class="card " style="border: none;"> <img src="Assets/destop/28-czone.com.pk-1540-12118-130921052056.jpg"  class="card-img-top" alt="...">
+				<div class="card " style="border: none;"> <img src="28-czone.com.pk-1540-12118-130921052056.jpg"  class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4><b>Asus TUF Gaming</b> </h4> 
 						<ul>
@@ -164,7 +177,7 @@
 				
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-up">
-				<div class="card" style="border: none;"> <img src="Assets/destop/328p6vubreb-69-rtp-global-001-1540-10758-291220083056.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="328p6vubreb-69-rtp-global-001-1540-10758-291220083056.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Philips 328P6VUBREB</h4>
 						<ul>
@@ -179,12 +192,12 @@
 				
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-down">
-				<div class="card" style="border: none;"> <img src="Assets/destop/71bx4qvo-hl.-ac-sl1500--1540-10202-150920040650.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="32-czone.com.pk-1540-11473-300421084911.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
 							<li>
-								15.6" HD (1366x768) TN 200nits 
+								15.6" HD (1366x768) TN 200nitsass
 							</li>
 						
 						</ul>
@@ -199,7 +212,7 @@
 	<div class="container mb-n3 mt-3">
 		<div class="row">
 			<div class="col-md-4 py-3  mb-5 slidea" data-aos="fade-right">
-				<div class="card " style="border: none;"> <img src="Assets/destop/destop.jpg"  class="card-img-top" alt="...">
+				<div class="card " style="border: none;"> <img src="destop.jpg"  class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4><b>ASUS ROG</b> </h4> 
 						<ul>
@@ -214,7 +227,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-up">
-				<div class="card" style="border: none;"> <img src="Assets/destop/destop2.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="destop2.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -229,7 +242,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-down">
-				<div class="card" style="border: none;"> <img src="Assets/destop/destop3.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="destop3.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -249,7 +262,7 @@
 	<div class="container mb-n3 mt-3">
 		<div class="row">
 			<div class="col-md-4 py-3  mb-5 slidea" data-aos="fade-right">
-				<div class="card " style="border: none;"> <img src="Assets/destop/printer1.jpg"  class="card-img-top" alt="...">
+				<div class="card " style="border: none;"> <img src="printer1.jpg"  class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4><b>ASUS ROG</b> </h4> 
 						<ul>
@@ -264,7 +277,7 @@
 				
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-up">
-				<div class="card" style="border: none;"> <img src="Assets/destop/printer2.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="printer2.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -279,7 +292,7 @@
 				<div class="col-md-4"> </div>
 			</div>
 			<div class="col-md-4 mb-5 slidea" data-aos="fade-down">
-				<div class="card" style="border: none;"> <img src="Assets/destop/printer3.jpg" class="card-img-top" alt="...">
+				<div class="card" style="border: none;"> <img src="printer3.jpg" class="card-img-top" alt="...">
 					<div class="card-body text-center cssancher">
 						<h4>Samsung Odyssey</h4>
 						<ul>
@@ -379,11 +392,11 @@
 			<div class="container-fluid mb-3">
 				<div class="row">
 					<div class="col text-center">
-					<img src="Imges/master-new.png" alt="" height="40" width="40" class="mx-sm-3 mx-1" >
-					<img src="Imges/visa-new.png" alt="" height="40" width="40" class="mx-md-3 mx-1" >
-					<img src="Assets/footer/paypal_logo_full_1510137413808.jpg" alt="" height="40" width="70" class="mx-md-3 mx-1" >
-					<img src="Assets/footer/images.png" alt="" height="40" width="60" class="mx-md-3 mx-1" >
-					<img src="Imges/visa-new.png" alt="" height="40" width="40" class="d-md-inline d-none" >
+					<img src="master-new.png" alt="" height="40" width="40" class="mx-sm-3 mx-1" >
+					<img src="visa-new.png" alt="" height="40" width="40" class="mx-md-3 mx-1" >
+					<img src="paypal_logo_full_1510137413808.jpg" alt="" height="40" width="70" class="mx-md-3 mx-1" >
+					<img src="images.png" alt="" height="40" width="60" class="mx-md-3 mx-1" >
+					<img src="visa-new.png" alt="" height="40" width="40" class="d-md-inline d-none" >
 					
 
 					</div>
@@ -397,7 +410,21 @@
 				</div>
 			</div>
 		
-			
+					<a href="#forhome" id="myBtn" 
+					
+	style="display: block;position: sticky;
+	display:none;
+	text-decoration: none;
+    z-index: 333;
+    bottom: 4%;
+	font-weight:700;
+	border-radius: 10px;
+    border: 3px solid #3C8DBC;
+	width: 47px;
+    padding: 6px 0px;
+    text-align: center;
+    left: 93%;
+    color: white;background: #3C8DBC;">Top</a>
 			<div class="cursor"></div>
 			<div class="cursor2"></div>
 			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -406,6 +433,15 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
+		mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 	 var cursor = document.querySelector(".cursor");
     var cursor2 = document.querySelector(".cursor2");
     document.addEventListener("mousemove",function(e){
@@ -413,6 +449,7 @@
     });
 </script>
 <script>
+
 	AOS.init({
 		once: false, 
 		duration: 1000,
